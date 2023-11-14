@@ -38,7 +38,7 @@ In the future we will hopefully have a buildserver, xbuild / msbuild support and
 As the `Polaris Private Server` is a work-in-progress alpha, you can find the latest unstable built version here @ [AppVeyor](https://ci.appveyor.com/project/cyberkitsune/polarisserver/build/artifacts)
 
 ### Documentation
-All available documentation for the server can be found on the project wiki @ [pso2proxy.cyberkitsune.net/wiki](http://pso2proxy.cyberkitsune.net/wiki)
+All available documentation for the server can be found on the project wiki
 
 ## Licensing
 All code is licensed under the
