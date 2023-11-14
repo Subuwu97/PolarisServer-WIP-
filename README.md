@@ -1,4 +1,4 @@
-MOVED TO POLARISCORE https://github.com/PolarisTeam/PolarisCore
+
 
 
 
@@ -75,3 +75,4 @@ with testers and developers (when awake and present, etc.). However any question
 * "LightningDragon" <https://github.com/LightningDragon>
 * "SonicFreak94" <https://github.com/SonicFreak94>
 * "Treeki" <https://github.com/Treeki>
+* Subuwu97 <https://github.com/Subuwu97>
