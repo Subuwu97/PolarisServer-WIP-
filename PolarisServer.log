@@ -1,0 +1,621 @@
+11/14/2023 12:38:10 AM - [ERR] Failed to load settings.txt. Press any key to quit.
+11/14/2023 12:39:48 AM - [ERR] Failed to load settings.txt. Press any key to quit.
+11/14/2023 12:40:17 AM - [WRN] No privatekey.blob installed, generating new keypair...
+
+--------------------------------------------------
+		11/14/2023 12:40:17 AM
+--------------------------------------------------
+11/14/2023 12:40:17 AM - Polaris Server - v0.1.0-pre (Corsac Fox)
+11/14/2023 12:40:17 AM - By PolarisTeam (http://github.com/PolarisTeam)
+11/14/2023 12:40:17 AM - All licenced under AGPL.
+11/14/2023 12:40:18 AM - Server starting at 11/14/2023 12:40:18 AM
+11/14/2023 12:40:19 AM - [---] Started a new QueryServer on port 12200
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler CampshipTeleport for packet 3-12.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler CampshipTeleportDown for packet 4-13.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler CasinoTeleportHandler for packet 3-35.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler CharacterSpawn for packet 11-3E.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler ObjectInteract for packet 4-14.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler QuestCounterHandler for packet B-30.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler QuestCounterAvailableHander for packet B-15.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler QuestListRequestHandler for packet B-17.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler QuestDifficultyRequestHandler for packet B-19.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler QuestDifficultyStartHandler for packet E-C.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler ReturnToLobbyHandler for packet 3-34.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler SymbolArtListHandler for packet 2F-6.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler KeyExchange for packet 11-B.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler Login for packet 11-0.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler PingResponse for packet 3-C.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler DeleteCharacter for packet 11-6.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler PingTimestampResponse for packet 11-D.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler GuildInfoRequest for packet 11-1D.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler LogOutRequest for packet 11-2B.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler CreateCharacterOne for packet 11-41.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler CreateCharacterTwo for packet 11-54.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler CharacterCreate for packet 11-5.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler CharacterList for packet 11-2.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler StartGame for packet 11-4.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler InitialLoad for packet 3-3.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler DoItMaybe for packet 3-10.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler MovementHandler for packet 4-7.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler MovementEndHandler for packet 4-71.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler MovementActionHandler for packet 4-8.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler ActionUpdateHandler for packet 4-3C.
+11/14/2023 12:40:19 AM - [PKT] Loaded PacketHandler ChatHandler for packet 7-0.
+11/14/2023 12:40:19 AM - [DB ] Loading database...
+11/14/2023 12:40:19 AM - [DB ] Executing database script C:\Users\bliza\source\Repos\Subuwu97\PolarisServer-WIP-\PolarisServer/Resources/sql/scripts/1-setup-database.sql
+11/14/2023 12:40:21 AM - [ERR] A database exception has occured - System.Data.Entity.Core.ProviderIncompatibleException: System.Data.Entity.Core.ProviderIncompatibleException: The provider did not return a ProviderManifestToken string. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   at MySql.Data.Entity.MySqlManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   at System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at PolarisServer.Database.PolarisEf.SetupDB() in C:\Users\bliza\Source\Repos\Subuwu97\PolarisServer-WIP-\PolarisServer\Database\PolarisEF.cs:line 117
+[ERR] Inner Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12099
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12199
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12299
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12399
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12499
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12599
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12699
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12799
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12899
+11/14/2023 12:40:21 AM - [---] Started a new QueryServer on port 12999
+
+--------------------------------------------------
+		11/14/2023 12:43:14 AM
+--------------------------------------------------
+11/14/2023 12:43:14 AM - Polaris Server - v0.1.0-pre (Corsac Fox)
+11/14/2023 12:43:14 AM - By PolarisTeam (http://github.com/PolarisTeam)
+11/14/2023 12:43:14 AM - All licenced under AGPL.
+11/14/2023 12:43:15 AM - Server starting at 11/14/2023 12:43:15 AM
+11/14/2023 12:43:15 AM - [---] Started a new QueryServer on port 12200
+11/14/2023 12:43:15 AM - [CFG] Configuration loaded
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler CampshipTeleport for packet 3-12.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler CampshipTeleportDown for packet 4-13.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler CasinoTeleportHandler for packet 3-35.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler CharacterSpawn for packet 11-3E.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler ObjectInteract for packet 4-14.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler QuestCounterHandler for packet B-30.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler QuestCounterAvailableHander for packet B-15.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler QuestListRequestHandler for packet B-17.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler QuestDifficultyRequestHandler for packet B-19.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler QuestDifficultyStartHandler for packet E-C.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler ReturnToLobbyHandler for packet 3-34.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler SymbolArtListHandler for packet 2F-6.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler KeyExchange for packet 11-B.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler Login for packet 11-0.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler PingResponse for packet 3-C.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler DeleteCharacter for packet 11-6.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler PingTimestampResponse for packet 11-D.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler GuildInfoRequest for packet 11-1D.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler LogOutRequest for packet 11-2B.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler CreateCharacterOne for packet 11-41.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler CreateCharacterTwo for packet 11-54.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler CharacterCreate for packet 11-5.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler CharacterList for packet 11-2.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler StartGame for packet 11-4.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler InitialLoad for packet 3-3.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler DoItMaybe for packet 3-10.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler MovementHandler for packet 4-7.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler MovementEndHandler for packet 4-71.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler MovementActionHandler for packet 4-8.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler ActionUpdateHandler for packet 4-3C.
+11/14/2023 12:43:15 AM - [PKT] Loaded PacketHandler ChatHandler for packet 7-0.
+11/14/2023 12:43:15 AM - [DB ] Loading database...
+11/14/2023 12:43:15 AM - [DB ] Executing database script C:\Users\bliza\source\Repos\Subuwu97\PolarisServer-WIP-\PolarisServer/Resources/sql/scripts/1-setup-database.sql
+11/14/2023 12:43:17 AM - [ERR] A database exception has occured - System.Data.Entity.Core.ProviderIncompatibleException: System.Data.Entity.Core.ProviderIncompatibleException: The provider did not return a ProviderManifestToken string. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   at MySql.Data.Entity.MySqlManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   at System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at PolarisServer.Database.PolarisEf.SetupDB() in C:\Users\bliza\Source\Repos\Subuwu97\PolarisServer-WIP-\PolarisServer\Database\PolarisEF.cs:line 117
+[ERR] Inner Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12099
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12199
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12299
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12399
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12499
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12599
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12699
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12799
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12899
+11/14/2023 12:43:17 AM - [---] Started a new QueryServer on port 12999
+
+--------------------------------------------------
+		11/14/2023 7:59:44 AM
+--------------------------------------------------
+11/14/2023 7:59:44 AM - Polaris Server - v0.1.0-pre (Corsac Fox)
+11/14/2023 7:59:44 AM - By PolarisTeam (http://github.com/PolarisTeam)
+11/14/2023 7:59:44 AM - All licenced under AGPL.
+11/14/2023 7:59:45 AM - Server starting at 11/14/2023 7:59:45 AM
+11/14/2023 7:59:45 AM - [---] Started a new QueryServer on port 12200
+11/14/2023 7:59:45 AM - [CFG] Configuration loaded
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler CampshipTeleport for packet 3-12.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler CampshipTeleportDown for packet 4-13.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler CasinoTeleportHandler for packet 3-35.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler CharacterSpawn for packet 11-3E.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler ObjectInteract for packet 4-14.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler QuestCounterHandler for packet B-30.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler QuestCounterAvailableHander for packet B-15.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler QuestListRequestHandler for packet B-17.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler QuestDifficultyRequestHandler for packet B-19.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler QuestDifficultyStartHandler for packet E-C.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler ReturnToLobbyHandler for packet 3-34.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler SymbolArtListHandler for packet 2F-6.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler KeyExchange for packet 11-B.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler Login for packet 11-0.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler PingResponse for packet 3-C.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler DeleteCharacter for packet 11-6.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler PingTimestampResponse for packet 11-D.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler GuildInfoRequest for packet 11-1D.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler LogOutRequest for packet 11-2B.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler CreateCharacterOne for packet 11-41.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler CreateCharacterTwo for packet 11-54.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler CharacterCreate for packet 11-5.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler CharacterList for packet 11-2.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler StartGame for packet 11-4.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler InitialLoad for packet 3-3.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler DoItMaybe for packet 3-10.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler MovementHandler for packet 4-7.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler MovementEndHandler for packet 4-71.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler MovementActionHandler for packet 4-8.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler ActionUpdateHandler for packet 4-3C.
+11/14/2023 7:59:45 AM - [PKT] Loaded PacketHandler ChatHandler for packet 7-0.
+11/14/2023 7:59:45 AM - [DB ] Loading database...
+11/14/2023 7:59:45 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/1-setup-database.sql
+11/14/2023 7:59:48 AM - [ERR] A database exception has occured - System.Data.Entity.Core.ProviderIncompatibleException: System.Data.Entity.Core.ProviderIncompatibleException: The provider did not return a ProviderManifestToken string. ---> MySql.Data.MySqlClient.MySqlException: Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   at MySql.Data.Entity.MySqlManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   at System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at PolarisServer.Database.PolarisEf.SetupDB() in C:\Users\bliza\Source\Repos\Subuwu97\PolarisServer-WIP-\PolarisServer\Database\PolarisEF.cs:line 117
+[ERR] Inner Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12099
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12199
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12299
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12399
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12499
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12599
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12699
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12799
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12899
+11/14/2023 7:59:48 AM - [---] Started a new QueryServer on port 12999
+
+--------------------------------------------------
+		11/14/2023 8:09:22 AM
+--------------------------------------------------
+11/14/2023 8:09:22 AM - Polaris Server - v0.1.0-pre (Corsac Fox)
+11/14/2023 8:09:22 AM - By PolarisTeam (http://github.com/PolarisTeam)
+11/14/2023 8:09:22 AM - All licenced under AGPL.
+11/14/2023 8:09:23 AM - Server starting at 11/14/2023 8:09:23 AM
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12200
+11/14/2023 8:09:23 AM - [CFG] Configuration loaded
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler CampshipTeleport for packet 3-12.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler CampshipTeleportDown for packet 4-13.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler CasinoTeleportHandler for packet 3-35.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler CharacterSpawn for packet 11-3E.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler ObjectInteract for packet 4-14.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler QuestCounterHandler for packet B-30.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler QuestCounterAvailableHander for packet B-15.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler QuestListRequestHandler for packet B-17.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler QuestDifficultyRequestHandler for packet B-19.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler QuestDifficultyStartHandler for packet E-C.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler ReturnToLobbyHandler for packet 3-34.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler SymbolArtListHandler for packet 2F-6.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler KeyExchange for packet 11-B.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler Login for packet 11-0.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler PingResponse for packet 3-C.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler DeleteCharacter for packet 11-6.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler PingTimestampResponse for packet 11-D.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler GuildInfoRequest for packet 11-1D.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler LogOutRequest for packet 11-2B.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler CreateCharacterOne for packet 11-41.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler CreateCharacterTwo for packet 11-54.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler CharacterCreate for packet 11-5.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler CharacterList for packet 11-2.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler StartGame for packet 11-4.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler InitialLoad for packet 3-3.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler DoItMaybe for packet 3-10.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler MovementHandler for packet 4-7.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler MovementEndHandler for packet 4-71.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler MovementActionHandler for packet 4-8.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler ActionUpdateHandler for packet 4-3C.
+11/14/2023 8:09:23 AM - [PKT] Loaded PacketHandler ChatHandler for packet 7-0.
+11/14/2023 8:09:23 AM - [DB ] Loading database...
+11/14/2023 8:09:23 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/1-setup-database.sql
+11/14/2023 8:09:23 AM - [ERR] A database exception has occured - System.Data.Entity.Core.ProviderIncompatibleException: System.Data.Entity.Core.ProviderIncompatibleException: The provider did not return a ProviderManifestToken string. ---> MySql.Data.MySqlClient.MySqlException: Authentication to host '127.0.0.1' for user 'polaris' using method 'mysql_native_password' failed with message: Access denied for user 'polaris'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'polaris'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- End of inner exception stack trace ---
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   at MySql.Data.Entity.MySqlManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   at System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at PolarisServer.Database.PolarisEf.SetupDB() in C:\Users\bliza\Source\Repos\Subuwu97\PolarisServer-WIP-\PolarisServer\Database\PolarisEF.cs:line 117
+[ERR] Inner Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host '127.0.0.1' for user 'polaris' using method 'mysql_native_password' failed with message: Access denied for user 'polaris'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'polaris'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12099
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12199
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12299
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12399
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12499
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12599
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12699
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12799
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12899
+11/14/2023 8:09:23 AM - [---] Started a new QueryServer on port 12999
+
+--------------------------------------------------
+		11/14/2023 8:28:44 AM
+--------------------------------------------------
+11/14/2023 8:28:44 AM - Polaris Server - v0.1.0-pre (Corsac Fox)
+11/14/2023 8:28:44 AM - By PolarisTeam (http://github.com/PolarisTeam)
+11/14/2023 8:28:44 AM - All licenced under AGPL.
+11/14/2023 8:28:45 AM - Server starting at 11/14/2023 8:28:45 AM
+11/14/2023 8:28:45 AM - [---] Started a new QueryServer on port 12200
+11/14/2023 8:28:45 AM - [CFG] Configuration loaded
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler CampshipTeleport for packet 3-12.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler CampshipTeleportDown for packet 4-13.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler CasinoTeleportHandler for packet 3-35.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler CharacterSpawn for packet 11-3E.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler ObjectInteract for packet 4-14.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler QuestCounterHandler for packet B-30.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler QuestCounterAvailableHander for packet B-15.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler QuestListRequestHandler for packet B-17.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler QuestDifficultyRequestHandler for packet B-19.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler QuestDifficultyStartHandler for packet E-C.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler ReturnToLobbyHandler for packet 3-34.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler SymbolArtListHandler for packet 2F-6.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler KeyExchange for packet 11-B.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler Login for packet 11-0.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler PingResponse for packet 3-C.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler DeleteCharacter for packet 11-6.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler PingTimestampResponse for packet 11-D.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler GuildInfoRequest for packet 11-1D.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler LogOutRequest for packet 11-2B.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler CreateCharacterOne for packet 11-41.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler CreateCharacterTwo for packet 11-54.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler CharacterCreate for packet 11-5.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler CharacterList for packet 11-2.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler StartGame for packet 11-4.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler InitialLoad for packet 3-3.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler DoItMaybe for packet 3-10.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler MovementHandler for packet 4-7.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler MovementEndHandler for packet 4-71.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler MovementActionHandler for packet 4-8.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler ActionUpdateHandler for packet 4-3C.
+11/14/2023 8:28:45 AM - [PKT] Loaded PacketHandler ChatHandler for packet 7-0.
+11/14/2023 8:28:45 AM - [DB ] Loading database...
+11/14/2023 8:28:45 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/1-setup-database.sql
+11/14/2023 8:28:46 AM - [ERR] A database exception has occured - System.Data.Entity.Core.ProviderIncompatibleException: System.Data.Entity.Core.ProviderIncompatibleException: The provider did not return a ProviderManifestToken string. ---> MySql.Data.MySqlClient.MySqlException: Authentication to host '127.0.0.1' for user 'polaris' using method 'mysql_native_password' failed with message: Access denied for user 'polaris'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'polaris'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- End of inner exception stack trace ---
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+   at MySql.Data.Entity.MySqlManifestTokenResolver.ResolveManifestToken(DbConnection connection)
+   at System.Data.Entity.Utilities.DbConnectionExtensions.GetProviderInfo(DbConnection connection, DbProviderManifest& providerManifest)
+   at System.Data.Entity.DbModelBuilder.Build(DbConnection providerConnection)
+   at System.Data.Entity.Internal.LazyInternalContext.CreateModel(LazyInternalContext internalContext)
+   at System.Data.Entity.Internal.RetryLazy`2.GetValue(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(TransactionalBehavior transactionalBehavior, String sql, Object[] parameters)
+   at System.Data.Entity.Database.ExecuteSqlCommand(String sql, Object[] parameters)
+   at PolarisServer.Database.PolarisEf.SetupDB() in C:\Users\bliza\Source\Repos\Subuwu97\PolarisServer-WIP-\PolarisServer\Database\PolarisEF.cs:line 117
+[ERR] Inner Exception: MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication to host '127.0.0.1' for user 'polaris' using method 'mysql_native_password' failed with message: Access denied for user 'polaris'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Access denied for user 'polaris'@'localhost' (using password: YES)
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   at MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate(String authMethod, Boolean reset)
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at MySql.Data.MySqlClient.MySqlProviderServices.GetDbProviderManifestToken(DbConnection connection)
+   at System.Data.Entity.Core.Common.DbProviderServices.GetProviderManifestToken(DbConnection connection)
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12099
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12199
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12299
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12399
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12499
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12599
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12699
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12799
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12899
+11/14/2023 8:28:46 AM - [---] Started a new QueryServer on port 12999
+
+--------------------------------------------------
+		11/14/2023 8:33:34 AM
+--------------------------------------------------
+11/14/2023 8:33:34 AM - Polaris Server - v0.1.0-pre (Corsac Fox)
+11/14/2023 8:33:34 AM - By PolarisTeam (http://github.com/PolarisTeam)
+11/14/2023 8:33:34 AM - All licenced under AGPL.
+11/14/2023 8:33:35 AM - Server starting at 11/14/2023 8:33:35 AM
+11/14/2023 8:33:35 AM - [---] Started a new QueryServer on port 12200
+11/14/2023 8:33:35 AM - [CFG] Configuration loaded
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler CampshipTeleport for packet 3-12.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler CampshipTeleportDown for packet 4-13.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler CasinoTeleportHandler for packet 3-35.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler CharacterSpawn for packet 11-3E.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler ObjectInteract for packet 4-14.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler QuestCounterHandler for packet B-30.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler QuestCounterAvailableHander for packet B-15.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler QuestListRequestHandler for packet B-17.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler QuestDifficultyRequestHandler for packet B-19.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler QuestDifficultyStartHandler for packet E-C.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler ReturnToLobbyHandler for packet 3-34.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler SymbolArtListHandler for packet 2F-6.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler KeyExchange for packet 11-B.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler Login for packet 11-0.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler PingResponse for packet 3-C.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler DeleteCharacter for packet 11-6.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler PingTimestampResponse for packet 11-D.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler GuildInfoRequest for packet 11-1D.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler LogOutRequest for packet 11-2B.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler CreateCharacterOne for packet 11-41.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler CreateCharacterTwo for packet 11-54.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler CharacterCreate for packet 11-5.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler CharacterList for packet 11-2.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler StartGame for packet 11-4.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler InitialLoad for packet 3-3.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler DoItMaybe for packet 3-10.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler MovementHandler for packet 4-7.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler MovementEndHandler for packet 4-71.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler MovementActionHandler for packet 4-8.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler ActionUpdateHandler for packet 4-3C.
+11/14/2023 8:33:35 AM - [PKT] Loaded PacketHandler ChatHandler for packet 7-0.
+11/14/2023 8:33:35 AM - [DB ] Loading database...
+11/14/2023 8:33:35 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/1-setup-database.sql
+11/14/2023 8:33:36 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/2-setup-table-structures.sql
+11/14/2023 8:33:36 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/3-setup-initial-data.sql
+11/14/2023 8:33:37 AM - [DB ] Loaded database with dataset revision 0
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12099
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12199
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12299
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12399
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12499
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12599
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12699
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12799
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12899
+11/14/2023 8:33:37 AM - [---] Started a new QueryServer on port 12999
+
+--------------------------------------------------
+		11/14/2023 8:38:56 AM
+--------------------------------------------------
+11/14/2023 8:38:56 AM - Polaris Server - v0.1.0-pre (Corsac Fox)
+11/14/2023 8:38:56 AM - By PolarisTeam (http://github.com/PolarisTeam)
+11/14/2023 8:38:56 AM - All licenced under AGPL.
+11/14/2023 8:38:57 AM - Server starting at 11/14/2023 8:38:57 AM
+11/14/2023 8:38:57 AM - [---] Started a new QueryServer on port 12200
+11/14/2023 8:38:57 AM - [CFG] Configuration loaded
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler CampshipTeleport for packet 3-12.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler CampshipTeleportDown for packet 4-13.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler CasinoTeleportHandler for packet 3-35.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler CharacterSpawn for packet 11-3E.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler ObjectInteract for packet 4-14.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler QuestCounterHandler for packet B-30.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler QuestCounterAvailableHander for packet B-15.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler QuestListRequestHandler for packet B-17.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler QuestDifficultyRequestHandler for packet B-19.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler QuestDifficultyStartHandler for packet E-C.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler ReturnToLobbyHandler for packet 3-34.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler SymbolArtListHandler for packet 2F-6.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler KeyExchange for packet 11-B.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler Login for packet 11-0.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler PingResponse for packet 3-C.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler DeleteCharacter for packet 11-6.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler PingTimestampResponse for packet 11-D.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler GuildInfoRequest for packet 11-1D.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler LogOutRequest for packet 11-2B.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler CreateCharacterOne for packet 11-41.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler CreateCharacterTwo for packet 11-54.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler CharacterCreate for packet 11-5.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler CharacterList for packet 11-2.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler StartGame for packet 11-4.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler InitialLoad for packet 3-3.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler DoItMaybe for packet 3-10.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler MovementHandler for packet 4-7.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler MovementEndHandler for packet 4-71.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler MovementActionHandler for packet 4-8.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler ActionUpdateHandler for packet 4-3C.
+11/14/2023 8:38:57 AM - [PKT] Loaded PacketHandler ChatHandler for packet 7-0.
+11/14/2023 8:38:57 AM - [DB ] Loading database...
+11/14/2023 8:38:57 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/1-setup-database.sql
+11/14/2023 8:38:59 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/2-setup-table-structures.sql
+11/14/2023 8:38:59 AM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/3-setup-initial-data.sql
+11/14/2023 8:38:59 AM - [DB ] Loaded database with dataset revision 0
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12099
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12199
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12299
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12399
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12499
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12599
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12699
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12799
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12899
+11/14/2023 8:38:59 AM - [---] Started a new QueryServer on port 12999
+
+--------------------------------------------------
+		11/14/2023 2:17:17 PM
+--------------------------------------------------
+11/14/2023 2:17:17 PM - Polaris Server - v0.1.0-pre (Corsac Fox)
+11/14/2023 2:17:17 PM - By PolarisTeam (http://github.com/PolarisTeam)
+11/14/2023 2:17:17 PM - All licenced under AGPL.
+11/14/2023 2:17:19 PM - Server starting at 11/14/2023 2:17:19 PM
+11/14/2023 2:17:19 PM - [---] Started a new QueryServer on port 12200
+11/14/2023 2:17:19 PM - [CFG] Configuration loaded
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler CampshipTeleport for packet 3-12.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler CampshipTeleportDown for packet 4-13.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler CasinoTeleportHandler for packet 3-35.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler CharacterSpawn for packet 11-3E.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler ObjectInteract for packet 4-14.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler QuestCounterHandler for packet B-30.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler QuestCounterAvailableHander for packet B-15.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler QuestListRequestHandler for packet B-17.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler QuestDifficultyRequestHandler for packet B-19.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler QuestDifficultyStartHandler for packet E-C.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler ReturnToLobbyHandler for packet 3-34.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler SymbolArtListHandler for packet 2F-6.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler KeyExchange for packet 11-B.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler Login for packet 11-0.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler PingResponse for packet 3-C.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler DeleteCharacter for packet 11-6.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler PingTimestampResponse for packet 11-D.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler GuildInfoRequest for packet 11-1D.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler LogOutRequest for packet 11-2B.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler CreateCharacterOne for packet 11-41.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler CreateCharacterTwo for packet 11-54.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler CharacterCreate for packet 11-5.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler CharacterList for packet 11-2.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler StartGame for packet 11-4.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler InitialLoad for packet 3-3.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler DoItMaybe for packet 3-10.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler MovementHandler for packet 4-7.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler MovementEndHandler for packet 4-71.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler MovementActionHandler for packet 4-8.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler ActionUpdateHandler for packet 4-3C.
+11/14/2023 2:17:19 PM - [PKT] Loaded PacketHandler ChatHandler for packet 7-0.
+11/14/2023 2:17:19 PM - [DB ] Loading database...
+11/14/2023 2:17:19 PM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/1-setup-database.sql
+11/14/2023 2:17:20 PM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/2-setup-table-structures.sql
+11/14/2023 2:17:20 PM - [DB ] Executing database script C:\Users\bliza\Desktop\Phantasy Star Online 2 Private server (Testing)/Resources/sql/scripts/3-setup-initial-data.sql
+11/14/2023 2:17:21 PM - [DB ] Loaded database with dataset revision 0
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12099
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12199
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12299
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12399
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12499
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12599
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12699
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12799
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12899
+11/14/2023 2:17:21 PM - [---] Started a new QueryServer on port 12999
